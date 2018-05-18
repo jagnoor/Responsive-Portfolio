@@ -221,7 +221,7 @@ input[type=submit]:hover {
 }
 
 .container {
-	
+
 	border-radius: 5px;
     background-color: #f2f2f2;
 	width: 960px;
@@ -240,11 +240,5 @@ input[type=submit]:hover {
 	margin-bottom: 20px;
 
 }
-	
-/* Portfolio */
 
-.floatTL {
-
-	
-	
-}
+/* viewport*/
