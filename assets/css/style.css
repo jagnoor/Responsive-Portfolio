@@ -1,5 +1,7 @@
 /* Basic Stuff */
 
+
+
 * {
   margin: 0em;
   padding: 0em;
@@ -202,18 +204,64 @@ input[type=submit]:hover {
 /* Media Queries */
 
 @media only screen and (min-width: 1px) and (max-width: 600px) {
-  *, #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
-    width: 70%;
-    height: auto;
-    clear: both;
-    float: left;
-    margin: auto;
-    .floatTL {
-      width: 70%;
-      height: auto;
-    }
-  }
+
+
+#logo {
+
+  font
 }
+
+#menu {
+
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: block;
+	float:left;
+  margin:auto;
+}
+
+.floatTL {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+  width: 100%;
+  clear: both;
+  display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+  margin-top: auto;
+}
+
+#main {
+
+  width: auto;
+  height: auto;
+  clear: both;
+  display: block;
+  float:left;
+}
+
+
+#main_inner {
+
+  width: auto;
+  height: auto;
+  clear: both;
+  display: block;
+  float:left;
+
+}
+
+#p {
+
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: block;
+	float:left;
+  margin:auto;
+
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   *, #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
