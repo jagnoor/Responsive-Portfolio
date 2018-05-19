@@ -95,7 +95,7 @@ p {
 
 #logo {
   position: absolute;
-  bottom: 0.6em;
+  bottom: .8em;
 }
 
 #logo h1 {
@@ -206,10 +206,19 @@ input[type=submit]:hover {
 @media only screen and (min-width: 1px) and (max-width: 600px) {
 
 
-#logo {
+  #logo {
+    position: absolute;
+    bottom: 2em;
+  }
 
-  font
-}
+  #logo h1 {
+    display: block;
+    color: #ffffff;
+    border: solid 1px #fff;
+    font-weight: bold;
+    font-size: 2.5em;
+    background-color: #4aaaa5
+  }
 
 #menu {
 
@@ -234,7 +243,7 @@ input[type=submit]:hover {
 }
 
 #main {
-
+  margin-left: auto;
   width: auto;
   height: auto;
   clear: both;
