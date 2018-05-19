@@ -84,10 +84,9 @@ p {
 #menu li a {
   margin-left: 0.5em;
   padding: 1.1em 1.4em 1.0em 1.4em;
-  border: solid 1px #fff;
   color: #777777;
   font-weight: bold;
-  font-size: 1.0em;
+  font-size: 1.1em;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -198,104 +197,99 @@ input[type=submit]:hover {
   margin-bottom: 20px;
 }
 
-
-
-
 /* Media Queries */
 
-@media only screen and (min-width: 1px) and (max-width: 600px) {
-
+@media only screen and (min-width: 1px)and (max-width: 600px) {
 
   #logo {
     position: absolute;
     bottom: 2em;
-  }
-
-  #logo h1 {
-    display: block;
-    color: #ffffff;
-    border: solid 1px #fff;
-    font-weight: bold;
-    font-size: 2.5em;
-    background-color: #4aaaa5
-  }
+        }
 
 #menu {
 
   width: 100%;
-  height: auto;
-  clear: both;
-  display: block;
 	float:left;
-  margin:auto;
-}
+      }
 
 .floatTL {
   width: auto;
   height: auto;
   max-width: 30%;
-  width: 100%;
-  clear: both;
-  display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-  margin-top: auto;
-}
+          }
 
 #main {
-  margin-left: auto;
-  width: auto;
-  height: auto;
-  clear: both;
-  display: block;
-  float:left;
-}
-
+  margin: auto;
+  width: 100%;
+      }
 
 #main_inner {
 
   width: auto;
-  height: auto;
-  clear: both;
-  display: block;
-  float:left;
+  margin: auto;
+            }
+  }
 
+@media only screen and (min-width: 601px)and (max-width: 768px) {
+
+  #logo {
+    position: absolute;
+    bottom: 2em;
+        }
+
+#menu {
+
+  width: 50%;
+  display: block;
+      }
+
+.floatTL {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+          }
+
+#main {
+  margin: auto;
+  width: 100%;
+      }
+
+#main_inner {
+
+  width: auto;
+  margin: auto;
+            }
 }
 
-#p {
+@media only screen and (max-width: 969px) {
+
+#logo {
+    position: absolute;
+    bottom: 2em;
+        }
+
+#menu {
 
   width: 100%;
-  height: auto;
-  clear: both;
+  float:none;
   display: block;
-	float:left;
-  margin:auto;
+  text-align: left;
+      }
 
+.floatTL {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+          }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  *, #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
-    width: 80%;
-    height: auto;
-    clear: both;
-    float: left;
-    margin: auto;
-    .floatTL {
-      width: 80%;
-      height: auto;
-    }
-  }
-}
+#main {
+  margin: auto;
+  width: 100%;
+      }
 
-@media only screen and (min-width: 769px)and (max-width: 969px) {
-  *, #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
-    width: 90%;
-    height: auto;
-    clear: both;
-    float: left;
-    margin: auto;
-    .floatTL {
-      width: 100%;
-      height: auto;
-    }
-  }
+#main_inner {
+
+  width: auto;
+  margin: auto;
+            }
 }
