@@ -204,7 +204,7 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 14px;
     margin-bottom: 10px;
-    resize: vertical;
+    resize: horizontal;
 }
 
 input[type=submit] {
@@ -241,4 +241,67 @@ input[type=submit]:hover {
 
 }
 
-/* viewport*/
+/* Portfolio */
+
+.floatTL {
+
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+ * , #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
+  width: 70%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin: auto;
+
+  .floatTL {
+
+  width: 70%;
+   height: auto;
+
+  }
+
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  * , #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
+   width: 80%;
+   height: auto;
+   clear: both;
+   float: left;
+   margin: auto;
+
+
+   .floatTL {
+
+     width: 80%;
+    height: auto;
+
+   }
+
+ }
+ }
+
+@media only screen and (max-width: 969px)and (min-width: 769px) {
+  * , #a, #div, #header, #header_inner, #menu, #main, #primaryContent_columnless, #columnA_columnless, #placeholder, #footer {
+   width: 90%;
+   height: auto;
+   clear: both;
+   float: left;
+   margin: auto;
+
+
+   .floatTL {
+
+     width: 100%;
+    height: auto;
+
+   }
+
+ }
+ }
