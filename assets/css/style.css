@@ -1,7 +1,5 @@
 /* Basic Stuff */
 
-
-
 * {
   margin: 0em;
   padding: 0em;
@@ -200,96 +198,76 @@ input[type=submit]:hover {
 /* Media Queries */
 
 @media only screen and (min-width: 1px)and (max-width: 600px) {
-
   #logo {
     position: absolute;
     bottom: 2em;
-        }
-
-#menu {
-
-  width: 100%;
-	float:left;
-      }
-
-.floatTL {
-  width: auto;
-  height: auto;
-  max-width: 30%;
-          }
-
-#main {
-  margin: auto;
-  width: 100%;
-      }
-
-#main_inner {
-
-  width: auto;
-  margin: auto;
-            }
   }
+  #menu {
+    width: 100%;
+    float: left;
+  }
+  .floatTL {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+  }
+  #main {
+    margin: auto;
+    width: 100%;
+  }
+  #main_inner {
+    width: auto;
+    margin: auto;
+  }
+}
 
 @media only screen and (min-width: 601px)and (max-width: 768px) {
-
   #logo {
     position: absolute;
     bottom: 2em;
-        }
-
-#menu {
-
-  width: 50%;
-  display: block;
-      }
-
-.floatTL {
-  width: auto;
-  height: auto;
-  max-width: 30%;
-          }
-
-#main {
-  margin: auto;
-  width: 100%;
-      }
-
-#main_inner {
-
-  width: auto;
-  margin: auto;
-            }
+  }
+  #menu {
+    width: 50%;
+    display: block;
+  }
+  .floatTL {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+  }
+  #main {
+    margin: auto;
+    width: 100%;
+  }
+  #main_inner {
+    width: auto;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 969px) {
-
-#logo {
+  #logo {
     position: absolute;
     bottom: 2em;
-        }
-
-#menu {
-
-  width: 100%;
-  float:none;
-  display: block;
-  text-align: left;
-      }
-
-.floatTL {
-  width: auto;
-  height: auto;
-  max-width: 30%;
-          }
-
-#main {
-  margin: auto;
-  width: 100%;
-      }
-
-#main_inner {
-
-  width: auto;
-  margin: auto;
-            }
+  }
+  #menu {
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .floatTL {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+  }
+  #main {
+    margin: auto;
+    width: 100%;
+    padding: .3em;
+  }
+  #main_inner {
+    width: auto;
+    margin: auto;
+  }
 }
